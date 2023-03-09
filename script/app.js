@@ -2,7 +2,7 @@
 const mainZone = document.querySelector('.mainZone');
 
 // Constantes
-
+const clapSound = new Audio('media/sounds/clap.mp3');
 
 // Variables
 
@@ -40,7 +40,7 @@ function generatecolor ()
 function mainClick ()
 {
     mainZone.style.backgroundColor = generatecolor();
-    const clapSound = new Audio('media/sounds/clap.mp3');
+    clapSound.currentTime = 0;
     clapSound.play();
 }
 
