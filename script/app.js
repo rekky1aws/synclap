@@ -3,6 +3,7 @@ const mainZone = document.querySelector('.mainZone');
 
 // Constantes
 
+
 // Variables
 
 // EventListeners
@@ -39,6 +40,8 @@ function generatecolor ()
 function mainClick ()
 {
     mainZone.style.backgroundColor = generatecolor();
+    const clapSound = new Audio('media/sounds/clap.mp3');
+    clapSound.play();
 }
 
 // Main code
