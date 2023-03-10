@@ -39,9 +39,9 @@ function generatecolor ()
 
 function mainClick ()
 {
-    mainZone.style.backgroundColor = generatecolor();
     clapSound.currentTime = 0;
     clapSound.play();
+    mainZone.style.backgroundColor = generatecolor();
 }
 
 // Main code
