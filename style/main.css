@@ -32,4 +32,5 @@ main {
 	height:  calc(100% - 40px);
 	width:  calc(100% - 40px);
 	border-radius: 25px;
+	border: none;
 }
